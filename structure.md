@@ -54,7 +54,7 @@ The `config` directory, contains all of your runtimes' configuration files. You 
 <a name="environment-directory"></a>
 ### Environment Directory
 
-The `environment` directory, contains your application environment settings.
+The `environment` directory contains your application environment settings.
 
 <a name="log-directory"></a>
 ### Log Directory
