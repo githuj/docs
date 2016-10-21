@@ -110,7 +110,7 @@ For more control about how callbacks are qeued you can also consider using `onBe
 <a name="using-timers"></a>
 ### Using Timers
 
-Timer is special kind of function which execution is delayed by given time interval. `Kraken\Loop` component manages timers automatically and does its best to ensure all timers all executed properly.
+Timer is special kind of function which execution is delayed by given time interval. `Kraken\Loop` component manages timers automatically and does its best to ensure all timers are executed properly.
 
 To create timers you can use `addTimer` method.
 
