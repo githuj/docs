@@ -83,7 +83,7 @@ Interaction between isolated containers should follow messaging-pattern, meaning
 <a name="supervision"></a>
 ### Supervision
 
-Kraken handles all faults transparently, applying one of the strategies described in [supervision and monitoring](/docs/{{version}}/supervision) for each incoming failure. There are two layers of supervision system. The first, one called *local supervisor* allows each of your containers to fix its own problems. If local supervision system is not able to solve the problem that occurred, it is able to delegate the issue to *remote supervisor*, which then will decide what two do. Local supervisor is defined in the container's own memory while remote supervisor is a supervisor existing in the parent container.
+Kraken handles all faults transparently, applying one of the strategies described in [supervision and monitoring](/docs/{{version}}/supervision) for each incoming failure. There are two layers of supervision system. The first, one called *local supervisor* allows each of your containers to fix its own problems. If local supervision system is not able to solve the problem that occurred, it is able to delegate the issue to *remote supervisor*, which then will decide what to do. Local supervisor is defined in the container's own memory while remote supervisor is a supervisor existing in the parent container.
 
 > {notice} It is recommended to read more about how Kraken implements supervision system in its's separate [supervision article](/docs/{{version}}/supervision).
 
