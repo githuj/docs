@@ -82,7 +82,7 @@ If you are already in this step, it means your command is already registered, bu
 
 To register previously created command into console, open console `config.php` file and add it to `command.models` list.
 
-    // this declaration will me your command invokable using Kraken Console.
+    // this declaration will make your command invokable using Kraken Console.
     'models' => [
         'App\Console\Command\Test\TestCommand'
     ]
